@@ -1,0 +1,274 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(21, 2, 35);
+    color:white;
+    font-family:'poppins',sans-serif ;
+}
+*{
+    margin:0;
+    padding: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(3, 3, 56);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(88, 88, 177);
+    font-size: 1.02rem;
+}
+.left{
+    font-size: 1.4rem;
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:110px 0px;
+
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection{
+   
+    font-size: 2.5rem;
+}
+.rightsection{
+ 
+    width:50%;
+    overflow: hidden;
+}
+.rightsection img{
+  
+    width:100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.purple{
+    color:rgb(139, 36, 236);
+}
+#element{
+    color: rgb(139, 36, 236);
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    
+}
+#fst{
+    border: 0;
+    background: hwb(271 54% 23%);
+    height: 1.4px;
+    margin:30px 90px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.textgrey{
+    color: grey;
+}
+.secondsection .box{
+    background: hwb(271 0% 65%);
+    width: 80vw;
+    height: 2px;
+    margin:20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.vertical-title{
+    margin: 20px 0;
+    width:30%;
+    color:blueviolet;
+
+}
+.box2{
+    margin:60px 0;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.vertical-desc{
+    position: relative;
+    top:30px;
+    width:30%;
+    
+}
+
+.thirdsection{
+    max-width: 80vw;
+    margin:auto;
+    
+}
+.thirdsection h1{
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.frthsection {
+  padding: 30px 20px;
+  text-align: center;
+  
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-card {
+    background-color: #140324;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  border-width: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card i {
+  font-size: 20px;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(138, 93, 209, 0.15);
+}
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-socials {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 22px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  transform: translateY(-5px);
+  color: #0077b5;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+.exp{
+    text-align: center;
+    max-width: 80vw;
+    margin:auto;
+}
+.exp h3{
+    color: rgb(139, 36, 236);
+}
+hr{
+    border: 0;
+    margin:30px 90px;
+}
+.education{
+   margin: auto;
+   max-width: 80vw;
+}
+
+.box3{
+    
+    display: flex;
+    margin: 30px 0;
+    justify-content:center;
+    max-width: 80vw;
+    
+}
+#education {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#education h1 {
+  margin-bottom: 30px;
+  
+}
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.education-card {
+  width: 280px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  border-width: 3px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.education-card p {
+  font-size: 14px;
+  color: #8f908e;
+}
+
+.education-card span {
+  font-size: 13px;
+  color: #777777;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
